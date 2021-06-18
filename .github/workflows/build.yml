@@ -16,4 +16,6 @@ jobs:
         with:
           name: zenn-cli
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
-      - run: 'nix-shell --run "node2nix -i node-packages.json -c composition.nix && nix-build -A zenn-cli | cachix push zenn-cli"'
+      - run: |
+          nix run nixpkgs.nodePackages.node2nix --command node2nix -i node-packages.json -c composition.nix
+          nix-build -A zenn-cli | cachix push zenn-cli
