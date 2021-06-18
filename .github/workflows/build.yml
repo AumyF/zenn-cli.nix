@@ -1,4 +1,4 @@
-name: "Test"
+name: "Build and Push"
 on:
   push:
   schedule:
@@ -16,4 +16,4 @@ jobs:
         with:
           name: zenn-cli
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
-      - run: node2nix -i node-packages.json -c composition.nix && nix-build -A zenn-cli | cachix push zenn-cli
+      - run: 'nix-shell --run "node2nix -i node-packages.json -c composition.nix && nix-build -A zenn-cli | cachix push zenn-cli"'
