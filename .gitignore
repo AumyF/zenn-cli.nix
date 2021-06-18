@@ -1,6 +1,2 @@
 result
 node_modules
-composition.nix
-default.nix
-node-env.nix
-node-packages.nix
