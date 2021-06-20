@@ -193,13 +193,13 @@ let
         sha512 = "1M16pY3PvWVScLrYj9nENZm1yQ+V/w2YoB6NMZkv+/O/nAHoRg6qS1BX8FNnCKSbIk52QIwj+NUi/sUK2EMuew==";
       };
     };
-    "@types/node-15.12.3" = {
+    "@types/node-15.12.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "15.12.3";
+      version = "15.12.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-15.12.3.tgz";
-        sha512 = "SNt65CPCXvGNDZ3bvk1TQ0Qxoe3y1RKH88+wZ2Uf05dduBCqqFQ76ADP9pbT+Cpvj60SkRppMCh2Zo8tDixqjQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-15.12.4.tgz";
+        sha512 = "zrNj1+yqYF4WskCMOHwN+w9iuD12+dGm0rQ35HLl9/Ouuq52cEtd0CH9qMgrdNmi5ejC1/V7vKEXYubB+65DkA==";
       };
     };
     "@types/prismjs-1.16.5" = {
@@ -1129,13 +1129,13 @@ let
         sha1 = "20f1336481b083cd75337992a16971aa2d906947";
       };
     };
-    "open-8.2.0" = {
+    "open-8.2.1" = {
       name = "open";
       packageName = "open";
-      version = "8.2.0";
+      version = "8.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/open/-/open-8.2.0.tgz";
-        sha512 = "O8uInONB4asyY3qUcEytpgwxQG3O0fJ/hlssoUHsBboOIRVZzT6Wq+Rwj5nffbeUhOdMjpXeISpDDzHCMRDuOQ==";
+        url = "https://registry.npmjs.org/open/-/open-8.2.1.tgz";
+        sha512 = "rXILpcQlkF/QuFez2BJDf3GsqpjGKbkUUToAIGo9A0Q6ZkoSGogZJulrUdwRkrAsoQvoZsrjCYt8+zblOk7JQQ==";
       };
     };
     "parseurl-1.3.3" = {
@@ -1590,7 +1590,7 @@ in
       sources."@emotion/unitless-0.7.5"
       sources."@steelydylan/markdown-it-imsize-1.0.2"
       sources."@steelydylan/prism-diff-highlight-1.0.4"
-      sources."@types/node-15.12.3"
+      sources."@types/node-15.12.4"
       sources."@types/prismjs-1.16.5"
       sources."@types/ws-7.4.5"
       sources."accepts-1.3.7"
@@ -1697,7 +1697,7 @@ in
       sources."normalize-path-3.0.0"
       sources."object-assign-4.1.1"
       sources."on-finished-2.3.0"
-      sources."open-8.2.0"
+      sources."open-8.2.1"
       sources."parseurl-1.3.3"
       sources."path-to-regexp-0.1.7"
       sources."picomatch-2.3.0"
