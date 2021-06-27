@@ -94,13 +94,13 @@ let
         sha512 = "qf9u2WFWVV0MppaL877j2dBtQIDgmidgjGk5VIMw3OadXvYaXn66U1BFlH2t4+t3i+8PhedppRv+i40ABzd+gg==";
       };
     };
-    "@babel/parser-7.14.6" = {
+    "@babel/parser-7.14.7" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.14.6";
+      version = "7.14.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.14.6.tgz";
-        sha512 = "oG0ej7efjEXxb4UgE+klVx+3j4MVo+A2vCzm7OUN4CLo6WhQ+vSOD2yJ8m7B+DghObxtLxt3EfgMWpq+AsWehQ==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.14.7.tgz";
+        sha512 = "X67Z5y+VBJuHB/RjwECp8kSl5uYi0BvRbNeWqkaJCVh+LiTPl19WBUfG627psSgp9rSf6ojuXghQM3ha6qHHdA==";
       };
     };
     "@babel/runtime-7.14.6" = {
@@ -121,13 +121,13 @@ let
         sha512 = "6Z3Po85sfxRGachLULUhOmvAaOo7xCvqGQtxINai2mEGPFm6pQ4z5QInFnUrRpfoSV60BnjyF5F3c+15fxFV1g==";
       };
     };
-    "@babel/traverse-7.14.5" = {
+    "@babel/traverse-7.14.7" = {
       name = "_at_babel_slash_traverse";
       packageName = "@babel/traverse";
-      version = "7.14.5";
+      version = "7.14.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.14.5.tgz";
-        sha512 = "G3BiS15vevepdmFqmUc9X+64y0viZYygubAMO8SvBmKARuF6CPSZtH4Ng9vi/lrWlZFGe3FWdXNy835akH8Glg==";
+        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.14.7.tgz";
+        sha512 = "9vDr5NzHu27wgwejuKL7kIOm4bwEtaPQ4Z6cpCmjSuaRqpH/7xc4qcGEscwMqlkwgcXl6MvqoAjZkQ24uSdIZQ==";
       };
     };
     "@babel/types-7.14.5" = {
@@ -193,13 +193,13 @@ let
         sha512 = "1M16pY3PvWVScLrYj9nENZm1yQ+V/w2YoB6NMZkv+/O/nAHoRg6qS1BX8FNnCKSbIk52QIwj+NUi/sUK2EMuew==";
       };
     };
-    "@types/node-15.12.4" = {
+    "@types/node-15.12.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "15.12.4";
+      version = "15.12.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-15.12.4.tgz";
-        sha512 = "zrNj1+yqYF4WskCMOHwN+w9iuD12+dGm0rQ35HLl9/Ouuq52cEtd0CH9qMgrdNmi5ejC1/V7vKEXYubB+65DkA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-15.12.5.tgz";
+        sha512 = "se3yX7UHv5Bscf8f1ERKvQOD6sTyycH3hdaoozvaLxgUiY5lIGEeH37AD0G0Qi9kPqihPn0HOfd2yaIEN9VwEg==";
       };
     };
     "@types/prismjs-1.16.5" = {
@@ -1525,31 +1525,31 @@ let
         sha512 = "6ezXvzOZupqKj4jUqbQ9tXuJNo+BR2gU8fFRk3XCP3e0G6WT414u5ELe6Y0vtp7kmSJ3F7YWObSNr1ESsgi4vw==";
       };
     };
-    "zenn-content-css-0.1.88" = {
+    "zenn-content-css-0.1.89" = {
       name = "zenn-content-css";
       packageName = "zenn-content-css";
-      version = "0.1.88";
+      version = "0.1.89";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zenn-content-css/-/zenn-content-css-0.1.88.tgz";
-        sha512 = "63bld0ORSSJ5kD9+qbJUNZM4lbu0Grcl2TntkPy6yt0Sg6UxTC57bvlxPp792u0MT3IXCCD8yNw/Gn9UxO3kug==";
+        url = "https://registry.npmjs.org/zenn-content-css/-/zenn-content-css-0.1.89.tgz";
+        sha512 = "2JbvPN9ybkAYWihpfSroyMniCnT4mH9fxPpN6hKCXFuVwAdj1QlcvZaUU5DAQG6SL1VPg+LsoyXGBg51V6QFuw==";
       };
     };
-    "zenn-embed-elements-0.1.88" = {
+    "zenn-embed-elements-0.1.89" = {
       name = "zenn-embed-elements";
       packageName = "zenn-embed-elements";
-      version = "0.1.88";
+      version = "0.1.89";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zenn-embed-elements/-/zenn-embed-elements-0.1.88.tgz";
-        sha512 = "AFmz23TYaaCWAnsxlKi6LCa2HHwzNVhLcAkF4vpbS2+lnFXQdQ10003otl6jZTJ5fvAaxcIeZzEYJkLfoRjFbw==";
+        url = "https://registry.npmjs.org/zenn-embed-elements/-/zenn-embed-elements-0.1.89.tgz";
+        sha512 = "emMbZhP2/urvAE23yoDcLUkaORJEE0RvNMm9E2q3A2j+jfwm2wlT+wMioSb43R0jH/DPKbxxFS9ldkPIXaxMKA==";
       };
     };
-    "zenn-markdown-html-0.1.88" = {
+    "zenn-markdown-html-0.1.89" = {
       name = "zenn-markdown-html";
       packageName = "zenn-markdown-html";
-      version = "0.1.88";
+      version = "0.1.89";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.88.tgz";
-        sha512 = "Y6q6N8+TSY5FieWNMPa3IaZsngfsLCm8wfOtbJQFxrOwG6GYU3j+O86HoQxguxVdblt96ptuDBlgFHA1J5x3Hw==";
+        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.89.tgz";
+        sha512 = "Dg7rFVmguJX1HOiOXH45frZfZsh9JYrzCmOVKlvX0AEYapraLe76xQoTZqOjGGjQTTJHCCgj12M6zjsyGJvr7g==";
       };
     };
   };
@@ -1558,10 +1558,10 @@ in
   zenn-cli = nodeEnv.buildNodePackage {
     name = "zenn-cli";
     packageName = "zenn-cli";
-    version = "0.1.88";
+    version = "0.1.89";
     src = fetchurl {
-      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.88.tgz";
-      sha512 = "wSYBH7s1DA361yYJNfYve63mUO2naefHsMvtkYf6p23ZVqJa8MiRAi8S8U9ENsXsg8PiVdZVc2gRlH+3nn6uEA==";
+      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.89.tgz";
+      sha512 = "A3PQ02cxXX/JAsdFd0HPUfXGTZPGex40hTc6+WE9fOGi4YjMgCqMMBnwwfE+f0nU+SYilKpziO3EKAblCdv0zw==";
     };
     dependencies = [
       sources."@babel/code-frame-7.14.5"
@@ -1574,10 +1574,10 @@ in
       sources."@babel/helper-split-export-declaration-7.14.5"
       sources."@babel/helper-validator-identifier-7.14.5"
       sources."@babel/highlight-7.14.5"
-      sources."@babel/parser-7.14.6"
+      sources."@babel/parser-7.14.7"
       sources."@babel/runtime-7.14.6"
       sources."@babel/template-7.14.5"
-      (sources."@babel/traverse-7.14.5" // {
+      (sources."@babel/traverse-7.14.7" // {
         dependencies = [
           sources."debug-4.3.2"
           sources."ms-2.1.2"
@@ -1590,7 +1590,7 @@ in
       sources."@emotion/unitless-0.7.5"
       sources."@steelydylan/markdown-it-imsize-1.0.2"
       sources."@steelydylan/prism-diff-highlight-1.0.4"
-      sources."@types/node-15.12.4"
+      sources."@types/node-15.12.5"
       sources."@types/prismjs-1.16.5"
       sources."@types/ws-7.4.5"
       sources."accepts-1.3.7"
@@ -1745,9 +1745,9 @@ in
       sources."utils-merge-1.0.1"
       sources."vary-1.1.2"
       sources."ws-7.5.0"
-      sources."zenn-content-css-0.1.88"
-      sources."zenn-embed-elements-0.1.88"
-      sources."zenn-markdown-html-0.1.88"
+      sources."zenn-content-css-0.1.89"
+      sources."zenn-embed-elements-0.1.89"
+      sources."zenn-markdown-html-0.1.89"
     ];
     buildInputs = globalBuildInputs;
     meta = {
