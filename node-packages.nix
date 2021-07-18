@@ -256,13 +256,13 @@ let
         sha512 = "1M16pY3PvWVScLrYj9nENZm1yQ+V/w2YoB6NMZkv+/O/nAHoRg6qS1BX8FNnCKSbIk52QIwj+NUi/sUK2EMuew==";
       };
     };
-    "@types/node-16.3.1" = {
+    "@types/node-16.3.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.3.1";
+      version = "16.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.3.1.tgz";
-        sha512 = "N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.3.3.tgz";
+        sha512 = "8h7k1YgQKxKXWckzFCMfsIwn0Y61UK6tlD6y2lOb3hTOIMlK3t9/QwHOhc81TwU+RMf0As5fj7NPjroERCnejQ==";
       };
     };
     "@types/prismjs-1.16.6" = {
@@ -1831,7 +1831,7 @@ in
       sources."@material-ui/utils-4.11.2"
       sources."@steelydylan/markdown-it-imsize-1.0.2"
       sources."@steelydylan/prism-diff-highlight-1.0.4"
-      sources."@types/node-16.3.1"
+      sources."@types/node-16.3.3"
       sources."@types/prismjs-1.16.6"
       sources."@types/prop-types-15.7.4"
       (sources."@types/react-17.0.14" // {
