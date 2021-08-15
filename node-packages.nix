@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@babel/runtime-7.14.8" = {
+    "@babel/runtime-7.15.3" = {
       name = "_at_babel_slash_runtime";
       packageName = "@babel/runtime";
-      version = "7.14.8";
+      version = "7.15.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.14.8.tgz";
-        sha512 = "twj3L8Og5SaCRCErB4x4ajbvBIVV77CGeFglHpeg5WC5FF8TZzBWXtTJ4MqaD9QszLYTtr+IsaAL2rEUevb+eg==";
+        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.3.tgz";
+        sha512 = "OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==";
       };
     };
     "@steelydylan/markdown-it-imsize-1.0.2" = {
@@ -472,13 +472,13 @@ let
         sha512 = "5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==";
       };
     };
-    "history-5.0.0" = {
+    "history-5.0.1" = {
       name = "history";
       packageName = "history";
-      version = "5.0.0";
+      version = "5.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/history/-/history-5.0.0.tgz";
-        sha512 = "3NyRMKIiFSJmIPdq7FxkNMJkQ7ZEtVblOQ38VtKaA0zZMW1Eo6Q6W8oDKEflr1kNNTItSnk4JMCO1deeSgbLLg==";
+        url = "https://registry.npmjs.org/history/-/history-5.0.1.tgz";
+        sha512 = "5qC/tFUKfVci5kzgRxZxN5Mf1CV8NmJx9ByaPX0YTLx5Vz3Svh7NYp6eA4CpDq4iA9D0C1t8BNIfvQIrUI3mVw==";
       };
     };
     "htmlparser2-6.1.0" = {
@@ -652,13 +652,13 @@ let
         sha512 = "aU1TzmBKcWNNYvH9pjq6u92BML+Hz3h5S/QpfTFwiQF852pLT+9qHsrhM9JYipkOXZxGn+sGH8oyJE9FD9WezQ==";
       };
     };
-    "markdown-it-anchor-5.3.0" = {
+    "markdown-it-anchor-8.1.2" = {
       name = "markdown-it-anchor";
       packageName = "markdown-it-anchor";
-      version = "5.3.0";
+      version = "8.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-5.3.0.tgz";
-        sha512 = "/V1MnLL/rgJ3jkMWo84UR+K+jF1cxNG1a+KwqeXqTIJ+jtA8aWSHuigx8lTzauiIjBDbwF3NcWQMotd0Dm39jA==";
+        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.1.2.tgz";
+        sha512 = "9D58TKK4dakqmjcmVuqHoB3ntKBpQJ0Ld38B83aiHJcBD72IZIyPjNtihPA6ayRI5WD33e1W68mArliNLHCprg==";
       };
     };
     "markdown-it-container-2.0.0" = {
@@ -1057,13 +1057,13 @@ let
         sha512 = "yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==";
       };
     };
-    "tslib-2.3.0" = {
+    "tslib-2.3.1" = {
       name = "tslib";
       packageName = "tslib";
-      version = "2.3.0";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz";
-        sha512 = "N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==";
+        url = "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz";
+        sha512 = "77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==";
       };
     };
     "type-is-1.6.18" = {
@@ -1129,13 +1129,13 @@ let
         sha512 = "kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==";
       };
     };
-    "zenn-markdown-html-0.1.93" = {
+    "zenn-markdown-html-0.1.94" = {
       name = "zenn-markdown-html";
       packageName = "zenn-markdown-html";
-      version = "0.1.93";
+      version = "0.1.94";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.93.tgz";
-        sha512 = "wf6RlwVPjS3Ue5pp8V0mGm9vt0xDNANVxSLLD88ycesFV5svyPwGW+vfZXp9/E6p5qVH2RHemfYGgUk3Y2F55Q==";
+        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.94.tgz";
+        sha512 = "WK9sxsQmWP1eVD4GhTchBkDHqxo8XpdDkx+Dn6c+UohpBtrHJAe2qGiMYk/+e4x5LLOO/kO87YtTbr1UaT+HDQ==";
       };
     };
   };
@@ -1144,13 +1144,13 @@ in
   zenn-cli = nodeEnv.buildNodePackage {
     name = "zenn-cli";
     packageName = "zenn-cli";
-    version = "0.1.93";
+    version = "0.1.94";
     src = fetchurl {
-      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.93.tgz";
-      sha512 = "CkBd5MdmAe4yYrHQVlQKRig/cCD4k12OZ2oVaBKiE+CSmHZo4FTGcW+q1DZ+GD+iLVsLCvOCBCFdO8C4LLk2pw==";
+      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.94.tgz";
+      sha512 = "OjHU0Sy+codM9A7FkF7KcssHY3tn7Ue3w+BxPu1MaSNwtiNiHOkJtRHWkiN+LAtKz/SA6RBX/p+VzM5O8a6+ig==";
     };
     dependencies = [
-      sources."@babel/runtime-7.14.8"
+      sources."@babel/runtime-7.15.3"
       sources."@steelydylan/markdown-it-imsize-1.0.2"
       sources."@steelydylan/prism-diff-highlight-1.0.4"
       sources."@types/prismjs-1.16.6"
@@ -1204,7 +1204,7 @@ in
           sources."js-yaml-3.14.1"
         ];
       })
-      sources."history-5.0.0"
+      sources."history-5.0.1"
       sources."htmlparser2-6.1.0"
       sources."http-errors-1.7.2"
       sources."iconv-lite-0.4.24"
@@ -1231,7 +1231,7 @@ in
           sources."entities-2.0.3"
         ];
       })
-      sources."markdown-it-anchor-5.3.0"
+      sources."markdown-it-anchor-8.1.2"
       sources."markdown-it-container-2.0.0"
       sources."markdown-it-footnote-3.0.3"
       sources."markdown-it-inline-comments-1.0.1"
@@ -1279,7 +1279,7 @@ in
       sources."strip-bom-string-1.0.0"
       sources."to-regex-range-5.0.1"
       sources."toidentifier-1.0.0"
-      sources."tslib-2.3.0"
+      sources."tslib-2.3.1"
       sources."type-is-1.6.18"
       sources."uc.micro-1.0.6"
       sources."universalify-2.0.0"
@@ -1287,7 +1287,7 @@ in
       sources."utils-merge-1.0.1"
       sources."vary-1.1.2"
       sources."ws-7.5.3"
-      sources."zenn-markdown-html-0.1.93"
+      sources."zenn-markdown-html-0.1.94"
     ];
     buildInputs = globalBuildInputs;
     meta = {
