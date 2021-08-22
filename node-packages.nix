@@ -58,13 +58,13 @@ let
         sha512 = "P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==";
       };
     };
-    "arg-5.0.0" = {
+    "arg-5.0.1" = {
       name = "arg";
       packageName = "arg";
-      version = "5.0.0";
+      version = "5.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/arg/-/arg-5.0.0.tgz";
-        sha512 = "4P8Zm2H+BRS+c/xX1LrHw0qKpEhdlZjLCgWy+d78T9vqa2Z2SiD2wMrYuWIAFy5IZUD7nnNXroRttz+0RzlrzQ==";
+        url = "https://registry.npmjs.org/arg/-/arg-5.0.1.tgz";
+        sha512 = "e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==";
       };
     };
     "argparse-1.0.10" = {
@@ -1156,7 +1156,7 @@ in
       sources."@types/prismjs-1.16.6"
       sources."accepts-1.3.7"
       sources."anymatch-3.1.2"
-      sources."arg-5.0.0"
+      sources."arg-5.0.1"
       sources."argparse-1.0.10"
       sources."array-flatten-1.1.1"
       sources."binary-extensions-2.2.0"
