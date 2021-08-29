@@ -292,22 +292,22 @@ let
         sha512 = "DtBMo82pv1dFtUmHyr48beiuq792Sxohr+8Hm9zoxklYPfa6n0Z3Byjj2IV7bmr2IyqClnqEQhfgHJJ5QF0R5A==";
       };
     };
-    "domhandler-4.2.0" = {
+    "domhandler-4.2.2" = {
       name = "domhandler";
       packageName = "domhandler";
-      version = "4.2.0";
+      version = "4.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/domhandler/-/domhandler-4.2.0.tgz";
-        sha512 = "zk7sgt970kzPks2Bf+dwT/PLzghLnsivb9CcxkvR8Mzr66Olr0Ofd8neSbglHJHaHa2MadfoSdNlKYAaafmWfA==";
+        url = "https://registry.npmjs.org/domhandler/-/domhandler-4.2.2.tgz";
+        sha512 = "PzE9aBMsdZO8TK4BnuJwH0QT41wgMbRzuZrHUcpYncEjmQazq8QEaBWgLG7ZyC/DAZKEgglpIA6j4Qn/HmxS3w==";
       };
     };
-    "domutils-2.7.0" = {
+    "domutils-2.8.0" = {
       name = "domutils";
       packageName = "domutils";
-      version = "2.7.0";
+      version = "2.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/domutils/-/domutils-2.7.0.tgz";
-        sha512 = "8eaHa17IwJUPAiB+SoTYBo5mCdeMgdcAoXJ59m6DT1vw+5iLS3gNoqYaRowaBKtGVrOF1Jz4yDTgYKLK2kvfJg==";
+        url = "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz";
+        sha512 = "w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==";
       };
     };
     "ee-first-1.1.1" = {
@@ -652,13 +652,13 @@ let
         sha512 = "aU1TzmBKcWNNYvH9pjq6u92BML+Hz3h5S/QpfTFwiQF852pLT+9qHsrhM9JYipkOXZxGn+sGH8oyJE9FD9WezQ==";
       };
     };
-    "markdown-it-anchor-8.1.2" = {
+    "markdown-it-anchor-8.3.0" = {
       name = "markdown-it-anchor";
       packageName = "markdown-it-anchor";
-      version = "8.1.2";
+      version = "8.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.1.2.tgz";
-        sha512 = "9D58TKK4dakqmjcmVuqHoB3ntKBpQJ0Ld38B83aiHJcBD72IZIyPjNtihPA6ayRI5WD33e1W68mArliNLHCprg==";
+        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.3.0.tgz";
+        sha512 = "YXMxKqZDH/MM/sFBZe+JQ/XFa7i8mIWZYkcY7jCGmpNNqcj2iS9Wyxy5devkUoL14NJOUt5IleD99D8StAwkXg==";
       };
     };
     "markdown-it-container-2.0.0" = {
@@ -1120,22 +1120,22 @@ let
         sha1 = "2299f02c6ded30d4a5961b0b9f74524a18f634fc";
       };
     };
-    "ws-7.5.3" = {
+    "ws-7.5.4" = {
       name = "ws";
       packageName = "ws";
-      version = "7.5.3";
+      version = "7.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ws/-/ws-7.5.3.tgz";
-        sha512 = "kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==";
+        url = "https://registry.npmjs.org/ws/-/ws-7.5.4.tgz";
+        sha512 = "zP9z6GXm6zC27YtspwH99T3qTG7bBFv2VIkeHstMLrLlDJuzA7tQ5ls3OJ1hOGGCzTQPniNJoHXIAOS0Jljohg==";
       };
     };
-    "zenn-markdown-html-0.1.94" = {
+    "zenn-markdown-html-0.1.95" = {
       name = "zenn-markdown-html";
       packageName = "zenn-markdown-html";
-      version = "0.1.94";
+      version = "0.1.95";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.94.tgz";
-        sha512 = "WK9sxsQmWP1eVD4GhTchBkDHqxo8XpdDkx+Dn6c+UohpBtrHJAe2qGiMYk/+e4x5LLOO/kO87YtTbr1UaT+HDQ==";
+        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.95.tgz";
+        sha512 = "FZ8YZTfdVb3lJSbgjb7w6Pe+GrM0DpPnJu7FF+ZrFEkdtSyGtbtxQSSWmvkBorc7VN/Wj4MGsb/Oou1uafmtBQ==";
       };
     };
   };
@@ -1144,10 +1144,10 @@ in
   zenn-cli = nodeEnv.buildNodePackage {
     name = "zenn-cli";
     packageName = "zenn-cli";
-    version = "0.1.94";
+    version = "0.1.95";
     src = fetchurl {
-      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.94.tgz";
-      sha512 = "OjHU0Sy+codM9A7FkF7KcssHY3tn7Ue3w+BxPu1MaSNwtiNiHOkJtRHWkiN+LAtKz/SA6RBX/p+VzM5O8a6+ig==";
+      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.95.tgz";
+      sha512 = "8VwvMyMvqg4IEIk0qKTfB9N5LnR9wQMkuJc4jBDlf/NeVgcs53GORyjlAJ8unAtW6sUGdPa3vqpB/DPnZW4Guw==";
     };
     dependencies = [
       sources."@babel/runtime-7.15.3"
@@ -1181,8 +1181,8 @@ in
       sources."destroy-1.0.4"
       sources."dom-serializer-1.3.2"
       sources."domelementtype-2.2.0"
-      sources."domhandler-4.2.0"
-      sources."domutils-2.7.0"
+      sources."domhandler-4.2.2"
+      sources."domutils-2.8.0"
       sources."ee-first-1.1.1"
       sources."encodeurl-1.0.2"
       sources."entities-2.2.0"
@@ -1231,7 +1231,7 @@ in
           sources."entities-2.0.3"
         ];
       })
-      sources."markdown-it-anchor-8.1.2"
+      sources."markdown-it-anchor-8.3.0"
       sources."markdown-it-container-2.0.0"
       sources."markdown-it-footnote-3.0.3"
       sources."markdown-it-inline-comments-1.0.1"
@@ -1286,8 +1286,8 @@ in
       sources."unpipe-1.0.0"
       sources."utils-merge-1.0.1"
       sources."vary-1.1.2"
-      sources."ws-7.5.3"
-      sources."zenn-markdown-html-0.1.94"
+      sources."ws-7.5.4"
+      sources."zenn-markdown-html-0.1.95"
     ];
     buildInputs = globalBuildInputs;
     meta = {
