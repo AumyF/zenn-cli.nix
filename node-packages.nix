@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@babel/runtime-7.15.3" = {
+    "@babel/runtime-7.15.4" = {
       name = "_at_babel_slash_runtime";
       packageName = "@babel/runtime";
-      version = "7.15.3";
+      version = "7.15.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.3.tgz";
-        sha512 = "OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==";
+        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.4.tgz";
+        sha512 = "99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==";
       };
     };
     "@steelydylan/markdown-it-imsize-1.0.2" = {
@@ -1150,7 +1150,7 @@ in
       sha512 = "8VwvMyMvqg4IEIk0qKTfB9N5LnR9wQMkuJc4jBDlf/NeVgcs53GORyjlAJ8unAtW6sUGdPa3vqpB/DPnZW4Guw==";
     };
     dependencies = [
-      sources."@babel/runtime-7.15.3"
+      sources."@babel/runtime-7.15.4"
       sources."@steelydylan/markdown-it-imsize-1.0.2"
       sources."@steelydylan/prism-diff-highlight-1.0.4"
       sources."@types/prismjs-1.16.6"
