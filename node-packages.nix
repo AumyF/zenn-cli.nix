@@ -796,13 +796,13 @@ let
         sha512 = "hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==";
       };
     };
-    "node-fetch-2.6.1" = {
+    "node-fetch-2.6.2" = {
       name = "node-fetch";
       packageName = "node-fetch";
-      version = "2.6.1";
+      version = "2.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz";
-        sha512 = "V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==";
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.2.tgz";
+        sha512 = "aLoxToI6RfZ+0NOjmWAgn9+LEd30YCkJKFSyWacNZdEKTit/ZMcKjGkTRo8uWEsnIb/hfKecNPEbln02PdWbcA==";
       };
     };
     "normalize-path-3.0.0" = {
@@ -1120,13 +1120,13 @@ let
         sha1 = "2299f02c6ded30d4a5961b0b9f74524a18f634fc";
       };
     };
-    "ws-7.5.4" = {
+    "ws-7.5.5" = {
       name = "ws";
       packageName = "ws";
-      version = "7.5.4";
+      version = "7.5.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ws/-/ws-7.5.4.tgz";
-        sha512 = "zP9z6GXm6zC27YtspwH99T3qTG7bBFv2VIkeHstMLrLlDJuzA7tQ5ls3OJ1hOGGCzTQPniNJoHXIAOS0Jljohg==";
+        url = "https://registry.npmjs.org/ws/-/ws-7.5.5.tgz";
+        sha512 = "BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==";
       };
     };
     "zenn-markdown-html-0.1.95" = {
@@ -1246,7 +1246,7 @@ in
       sources."mime-types-2.1.32"
       sources."ms-2.0.0"
       sources."negotiator-0.6.2"
-      sources."node-fetch-2.6.1"
+      sources."node-fetch-2.6.2"
       sources."normalize-path-3.0.0"
       sources."nth-check-2.0.0"
       sources."on-finished-2.3.0"
@@ -1286,7 +1286,7 @@ in
       sources."unpipe-1.0.0"
       sources."utils-merge-1.0.1"
       sources."vary-1.1.2"
-      sources."ws-7.5.4"
+      sources."ws-7.5.5"
       sources."zenn-markdown-html-0.1.95"
     ];
     buildInputs = globalBuildInputs;
