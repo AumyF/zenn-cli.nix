@@ -652,13 +652,13 @@ let
         sha512 = "aU1TzmBKcWNNYvH9pjq6u92BML+Hz3h5S/QpfTFwiQF852pLT+9qHsrhM9JYipkOXZxGn+sGH8oyJE9FD9WezQ==";
       };
     };
-    "markdown-it-anchor-8.3.0" = {
+    "markdown-it-anchor-8.3.1" = {
       name = "markdown-it-anchor";
       packageName = "markdown-it-anchor";
-      version = "8.3.0";
+      version = "8.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.3.0.tgz";
-        sha512 = "YXMxKqZDH/MM/sFBZe+JQ/XFa7i8mIWZYkcY7jCGmpNNqcj2iS9Wyxy5devkUoL14NJOUt5IleD99D8StAwkXg==";
+        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.3.1.tgz";
+        sha512 = "i12nPHfLM5uKQXVkzyJt5tZ7DetcYqZoCeiUc9OPqhAhqAR6SOswqMgzqEvDyT5BK6DOc8MmV78VjzCsYM5J5g==";
       };
     };
     "markdown-it-container-2.0.0" = {
@@ -814,13 +814,13 @@ let
         sha512 = "6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==";
       };
     };
-    "nth-check-2.0.0" = {
+    "nth-check-2.0.1" = {
       name = "nth-check";
       packageName = "nth-check";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nth-check/-/nth-check-2.0.0.tgz";
-        sha512 = "i4sc/Kj8htBrAiH1viZ0TgU8Y5XqCaV/FziYK6TBczxmeKm3AEFWqqF3195yKudrarqy7Zu80Ra5dobFjn9X/Q==";
+        url = "https://registry.npmjs.org/nth-check/-/nth-check-2.0.1.tgz";
+        sha512 = "it1vE95zF6dTT9lBsYbxvqh0Soy4SPowchj0UBGj/V6cTPnXXtQOPUbhZ6CmGzAD/rW22LQK6E96pcdJXk4A4w==";
       };
     };
     "on-finished-2.3.0" = {
@@ -886,13 +886,13 @@ let
         sha512 = "lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==";
       };
     };
-    "prismjs-1.24.1" = {
+    "prismjs-1.25.0" = {
       name = "prismjs";
       packageName = "prismjs";
-      version = "1.24.1";
+      version = "1.25.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/prismjs/-/prismjs-1.24.1.tgz";
-        sha512 = "mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow==";
+        url = "https://registry.npmjs.org/prismjs/-/prismjs-1.25.0.tgz";
+        sha512 = "WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==";
       };
     };
     "proxy-addr-2.0.7" = {
@@ -1231,7 +1231,7 @@ in
           sources."entities-2.0.3"
         ];
       })
-      sources."markdown-it-anchor-8.3.0"
+      sources."markdown-it-anchor-8.3.1"
       sources."markdown-it-container-2.0.0"
       sources."markdown-it-footnote-3.0.3"
       sources."markdown-it-inline-comments-1.0.1"
@@ -1248,7 +1248,7 @@ in
       sources."negotiator-0.6.2"
       sources."node-fetch-2.6.2"
       sources."normalize-path-3.0.0"
-      sources."nth-check-2.0.0"
+      sources."nth-check-2.0.1"
       sources."on-finished-2.3.0"
       sources."open-8.2.1"
       sources."parse5-6.0.1"
@@ -1256,7 +1256,7 @@ in
       sources."parseurl-1.3.3"
       sources."path-to-regexp-0.1.7"
       sources."picomatch-2.3.0"
-      sources."prismjs-1.24.1"
+      sources."prismjs-1.25.0"
       sources."proxy-addr-2.0.7"
       sources."qs-6.7.0"
       sources."queue-6.0.2"
