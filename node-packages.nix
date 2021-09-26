@@ -31,15 +31,6 @@ let
         sha512 = "1M16pY3PvWVScLrYj9nENZm1yQ+V/w2YoB6NMZkv+/O/nAHoRg6qS1BX8FNnCKSbIk52QIwj+NUi/sUK2EMuew==";
       };
     };
-    "@types/prismjs-1.16.6" = {
-      name = "_at_types_slash_prismjs";
-      packageName = "@types/prismjs";
-      version = "1.16.6";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@types/prismjs/-/prismjs-1.16.6.tgz";
-        sha512 = "dTvnamRITNqNkqhlBd235kZl3KfVJQQoT5jkXeiWSBK7i4/TLKBNLV0S1wOt8gy4E2TY722KLtdmv2xc6+Wevg==";
-      };
-    };
     "accepts-1.3.7" = {
       name = "accepts";
       packageName = "accepts";
@@ -796,13 +787,13 @@ let
         sha512 = "hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==";
       };
     };
-    "node-fetch-2.6.2" = {
+    "node-fetch-2.6.5" = {
       name = "node-fetch";
       packageName = "node-fetch";
-      version = "2.6.2";
+      version = "2.6.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.2.tgz";
-        sha512 = "aLoxToI6RfZ+0NOjmWAgn9+LEd30YCkJKFSyWacNZdEKTit/ZMcKjGkTRo8uWEsnIb/hfKecNPEbln02PdWbcA==";
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.5.tgz";
+        sha512 = "mmlIVHJEu5rnIxgEgez6b9GgWXbkZj5YZ7fx+2r94a2E+Uirsp6HsPTPlomfdHtpt/B0cdKviwkoaM6pyvUOpQ==";
       };
     };
     "normalize-path-3.0.0" = {
@@ -1057,6 +1048,15 @@ let
         sha512 = "yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==";
       };
     };
+    "tr46-0.0.3" = {
+      name = "tr46";
+      packageName = "tr46";
+      version = "0.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz";
+        sha1 = "8184fd347dac9cdc185992f3a6622e14b9d9ab6a";
+      };
+    };
     "tslib-2.3.1" = {
       name = "tslib";
       packageName = "tslib";
@@ -1120,6 +1120,24 @@ let
         sha1 = "2299f02c6ded30d4a5961b0b9f74524a18f634fc";
       };
     };
+    "webidl-conversions-3.0.1" = {
+      name = "webidl-conversions";
+      packageName = "webidl-conversions";
+      version = "3.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz";
+        sha1 = "24534275e2a7bc6be7bc86611cc16ae0a5654871";
+      };
+    };
+    "whatwg-url-5.0.0" = {
+      name = "whatwg-url";
+      packageName = "whatwg-url";
+      version = "5.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz";
+        sha1 = "966454e8765462e37644d3626f6742ce8b70965d";
+      };
+    };
     "ws-7.5.5" = {
       name = "ws";
       packageName = "ws";
@@ -1129,13 +1147,13 @@ let
         sha512 = "BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==";
       };
     };
-    "zenn-markdown-html-0.1.95" = {
+    "zenn-markdown-html-0.1.96" = {
       name = "zenn-markdown-html";
       packageName = "zenn-markdown-html";
-      version = "0.1.95";
+      version = "0.1.96";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.95.tgz";
-        sha512 = "FZ8YZTfdVb3lJSbgjb7w6Pe+GrM0DpPnJu7FF+ZrFEkdtSyGtbtxQSSWmvkBorc7VN/Wj4MGsb/Oou1uafmtBQ==";
+        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.96.tgz";
+        sha512 = "o8RfvVxXLmXuK07/9FczUdOUSvZa6YvqT8C31AcuDEqLTUv+5kBWvU1GjQOD68AZHLaESZdEvOT1BQbztpzSYw==";
       };
     };
   };
@@ -1144,16 +1162,15 @@ in
   zenn-cli = nodeEnv.buildNodePackage {
     name = "zenn-cli";
     packageName = "zenn-cli";
-    version = "0.1.95";
+    version = "0.1.96";
     src = fetchurl {
-      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.95.tgz";
-      sha512 = "8VwvMyMvqg4IEIk0qKTfB9N5LnR9wQMkuJc4jBDlf/NeVgcs53GORyjlAJ8unAtW6sUGdPa3vqpB/DPnZW4Guw==";
+      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.96.tgz";
+      sha512 = "bPHOdIi2TF26Zx4p1kIerMAXHBYZTdvSQuQCubSoSmHw4coKECc1Ju0bgblIF4GfxSZzpLuBBKzqtBR4yeu2bQ==";
     };
     dependencies = [
       sources."@babel/runtime-7.15.4"
       sources."@steelydylan/markdown-it-imsize-1.0.2"
       sources."@steelydylan/prism-diff-highlight-1.0.4"
-      sources."@types/prismjs-1.16.6"
       sources."accepts-1.3.7"
       sources."anymatch-3.1.2"
       sources."arg-5.0.1"
@@ -1246,7 +1263,7 @@ in
       sources."mime-types-2.1.32"
       sources."ms-2.0.0"
       sources."negotiator-0.6.2"
-      sources."node-fetch-2.6.2"
+      sources."node-fetch-2.6.5"
       sources."normalize-path-3.0.0"
       sources."nth-check-2.0.1"
       sources."on-finished-2.3.0"
@@ -1279,6 +1296,7 @@ in
       sources."strip-bom-string-1.0.0"
       sources."to-regex-range-5.0.1"
       sources."toidentifier-1.0.0"
+      sources."tr46-0.0.3"
       sources."tslib-2.3.1"
       sources."type-is-1.6.18"
       sources."uc.micro-1.0.6"
@@ -1286,8 +1304,10 @@ in
       sources."unpipe-1.0.0"
       sources."utils-merge-1.0.1"
       sources."vary-1.1.2"
+      sources."webidl-conversions-3.0.1"
+      sources."whatwg-url-5.0.0"
       sources."ws-7.5.5"
-      sources."zenn-markdown-html-0.1.95"
+      sources."zenn-markdown-html-0.1.96"
     ];
     buildInputs = globalBuildInputs;
     meta = {
