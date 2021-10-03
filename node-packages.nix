@@ -562,13 +562,13 @@ let
         sha1 = "a88c02535791f02ed37c76a1b9ea9773c833f8c2";
       };
     };
-    "is-glob-4.0.1" = {
+    "is-glob-4.0.3" = {
       name = "is-glob";
       packageName = "is-glob";
-      version = "4.0.1";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-glob/-/is-glob-4.0.1.tgz";
-        sha512 = "5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==";
+        url = "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz";
+        sha512 = "xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==";
       };
     };
     "is-number-7.0.0" = {
@@ -625,13 +625,13 @@ let
         sha512 = "dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==";
       };
     };
-    "linkify-it-3.0.2" = {
+    "linkify-it-3.0.3" = {
       name = "linkify-it";
       packageName = "linkify-it";
-      version = "3.0.2";
+      version = "3.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/linkify-it/-/linkify-it-3.0.2.tgz";
-        sha512 = "gDBO4aHNZS6coiZCKVhSNh43F9ioIL4JwRjLZPkoLIY4yZFwg264Y5lu2x6rb1Js42Gh6Yqm2f6L2AJcnkzinQ==";
+        url = "https://registry.npmjs.org/linkify-it/-/linkify-it-3.0.3.tgz";
+        sha512 = "ynTsyrFSdE5oZ/O9GEf00kPngmOfVwazR5GKDq6EYfhlpFug3J2zybX56a2PRRpc9P+FuSoGNAwjlbDs9jJBPQ==";
       };
     };
     "markdown-it-11.0.1" = {
@@ -742,22 +742,22 @@ let
         sha512 = "x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==";
       };
     };
-    "mime-db-1.49.0" = {
+    "mime-db-1.50.0" = {
       name = "mime-db";
       packageName = "mime-db";
-      version = "1.49.0";
+      version = "1.50.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.49.0.tgz";
-        sha512 = "CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==";
+        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.50.0.tgz";
+        sha512 = "9tMZCDlYHqeERXEHO9f/hKfNXhre5dK2eE/krIvUjZbS2KPcqGDfNShIWS1uW9XOTKQKqK6qbeOci18rbfW77A==";
       };
     };
-    "mime-types-2.1.32" = {
+    "mime-types-2.1.33" = {
       name = "mime-types";
       packageName = "mime-types";
-      version = "2.1.32";
+      version = "2.1.33";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.32.tgz";
-        sha512 = "hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==";
+        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.33.tgz";
+        sha512 = "plLElXp7pRDd0bNZHw+nMd52vRYjLwQjygaNg7ddJ2uJtTlmnTCjWuPKxVu6//AdaRuME84SvLW91sIkBqGT0g==";
       };
     };
     "ms-2.0.0" = {
@@ -1147,13 +1147,13 @@ let
         sha512 = "BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==";
       };
     };
-    "zenn-markdown-html-0.1.96" = {
+    "zenn-markdown-html-0.1.98" = {
       name = "zenn-markdown-html";
       packageName = "zenn-markdown-html";
-      version = "0.1.96";
+      version = "0.1.98";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.96.tgz";
-        sha512 = "o8RfvVxXLmXuK07/9FczUdOUSvZa6YvqT8C31AcuDEqLTUv+5kBWvU1GjQOD68AZHLaESZdEvOT1BQbztpzSYw==";
+        url = "https://registry.npmjs.org/zenn-markdown-html/-/zenn-markdown-html-0.1.98.tgz";
+        sha512 = "h4pzd97ZJIvGteyaPhneR90NOThrUszwXsIw/q4ZvJDKsBhLJj9SzG52vxW+MDh15Uk7Pxyh31wuyVPbCgwbEQ==";
       };
     };
   };
@@ -1162,10 +1162,10 @@ in
   zenn-cli = nodeEnv.buildNodePackage {
     name = "zenn-cli";
     packageName = "zenn-cli";
-    version = "0.1.96";
+    version = "0.1.98";
     src = fetchurl {
-      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.96.tgz";
-      sha512 = "bPHOdIi2TF26Zx4p1kIerMAXHBYZTdvSQuQCubSoSmHw4coKECc1Ju0bgblIF4GfxSZzpLuBBKzqtBR4yeu2bQ==";
+      url = "https://registry.npmjs.org/zenn-cli/-/zenn-cli-0.1.98.tgz";
+      sha512 = "XHLtzOTip8qf+nj4WoQqOC+EQ3jC4GmC31YzERxc4bR/5MYTyEj0cCh5b1dbJDPM8f6P3L53k6b+nR+87h5afQ==";
     };
     dependencies = [
       sources."@babel/runtime-7.15.4"
@@ -1232,7 +1232,7 @@ in
       sources."is-docker-2.2.1"
       sources."is-extendable-0.1.1"
       sources."is-extglob-2.1.1"
-      sources."is-glob-4.0.1"
+      sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."is-wsl-2.2.0"
       (sources."js-yaml-4.1.0" // {
@@ -1242,7 +1242,7 @@ in
       })
       sources."jsonfile-6.1.0"
       sources."kind-of-6.0.3"
-      sources."linkify-it-3.0.2"
+      sources."linkify-it-3.0.3"
       (sources."markdown-it-11.0.1" // {
         dependencies = [
           sources."entities-2.0.3"
@@ -1259,8 +1259,8 @@ in
       sources."merge-descriptors-1.0.1"
       sources."methods-1.1.2"
       sources."mime-1.6.0"
-      sources."mime-db-1.49.0"
-      sources."mime-types-2.1.32"
+      sources."mime-db-1.50.0"
+      sources."mime-types-2.1.33"
       sources."ms-2.0.0"
       sources."negotiator-0.6.2"
       sources."node-fetch-2.6.5"
@@ -1307,7 +1307,7 @@ in
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
       sources."ws-7.5.5"
-      sources."zenn-markdown-html-0.1.96"
+      sources."zenn-markdown-html-0.1.98"
     ];
     buildInputs = globalBuildInputs;
     meta = {
