@@ -220,13 +220,13 @@ let
         sha512 = "gT3wBNd9Nj49rAbmtFHj1cljIAOLYSX1nZ8CB7TBO3INYckygm5B7LISU/szY//YmdiSLbJvDLOx9VnMVpMBxA==";
       };
     };
-    "css-what-5.0.1" = {
+    "css-what-5.1.0" = {
       name = "css-what";
       packageName = "css-what";
-      version = "5.0.1";
+      version = "5.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/css-what/-/css-what-5.0.1.tgz";
-        sha512 = "FYDTSHb/7KXsWICVsxdmiExPjCfRC4qRFBdVwv7Ax9hMnvMmEjP9RfxTEZ3qPZGmADDn2vAKSo9UcN1jKVYscg==";
+        url = "https://registry.npmjs.org/css-what/-/css-what-5.1.0.tgz";
+        sha512 = "arSMRWIIFY0hV8pIxZMEfmMI47Wj3R/aWpZDDxWYCPEiOMv6tfOrnpDtgxBYPEQD4V0Y/958+1TdC3iWTFcUPw==";
       };
     };
     "debug-2.6.9" = {
@@ -823,13 +823,13 @@ let
         sha1 = "20f1336481b083cd75337992a16971aa2d906947";
       };
     };
-    "open-8.2.1" = {
+    "open-8.3.0" = {
       name = "open";
       packageName = "open";
-      version = "8.2.1";
+      version = "8.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/open/-/open-8.2.1.tgz";
-        sha512 = "rXILpcQlkF/QuFez2BJDf3GsqpjGKbkUUToAIGo9A0Q6ZkoSGogZJulrUdwRkrAsoQvoZsrjCYt8+zblOk7JQQ==";
+        url = "https://registry.npmjs.org/open/-/open-8.3.0.tgz";
+        sha512 = "7INcPWb1UcOwSQxAXTnBJ+FxVV4MPs/X++FWWBtgY69/J5lc+tCteMt/oFK1MnkyHC4VILLa9ntmwKTwDR4Q9w==";
       };
     };
     "parse5-6.0.1" = {
@@ -1191,7 +1191,7 @@ in
       sources."cookie-0.4.0"
       sources."cookie-signature-1.0.6"
       sources."css-select-4.1.3"
-      sources."css-what-5.0.1"
+      sources."css-what-5.1.0"
       sources."debug-2.6.9"
       sources."define-lazy-prop-2.0.0"
       sources."depd-1.1.2"
@@ -1267,7 +1267,7 @@ in
       sources."normalize-path-3.0.0"
       sources."nth-check-2.0.1"
       sources."on-finished-2.3.0"
-      sources."open-8.2.1"
+      sources."open-8.3.0"
       sources."parse5-6.0.1"
       sources."parse5-htmlparser2-tree-adapter-6.0.1"
       sources."parseurl-1.3.3"
