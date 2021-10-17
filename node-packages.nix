@@ -643,13 +643,13 @@ let
         sha512 = "aU1TzmBKcWNNYvH9pjq6u92BML+Hz3h5S/QpfTFwiQF852pLT+9qHsrhM9JYipkOXZxGn+sGH8oyJE9FD9WezQ==";
       };
     };
-    "markdown-it-anchor-8.3.1" = {
+    "markdown-it-anchor-8.4.1" = {
       name = "markdown-it-anchor";
       packageName = "markdown-it-anchor";
-      version = "8.3.1";
+      version = "8.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.3.1.tgz";
-        sha512 = "i12nPHfLM5uKQXVkzyJt5tZ7DetcYqZoCeiUc9OPqhAhqAR6SOswqMgzqEvDyT5BK6DOc8MmV78VjzCsYM5J5g==";
+        url = "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-8.4.1.tgz";
+        sha512 = "sLODeRetZ/61KkKLJElaU3NuU2z7MhXf12Ml1WJMSdwpngeofneCRF+JBbat8HiSqhniOMuTemXMrsI7hA6XyA==";
       };
     };
     "markdown-it-container-2.0.0" = {
@@ -1248,7 +1248,7 @@ in
           sources."entities-2.0.3"
         ];
       })
-      sources."markdown-it-anchor-8.3.1"
+      sources."markdown-it-anchor-8.4.1"
       sources."markdown-it-container-2.0.0"
       sources."markdown-it-footnote-3.0.3"
       sources."markdown-it-inline-comments-1.0.1"
