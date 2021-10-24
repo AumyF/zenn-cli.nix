@@ -823,13 +823,13 @@ let
         sha1 = "20f1336481b083cd75337992a16971aa2d906947";
       };
     };
-    "open-8.3.0" = {
+    "open-8.4.0" = {
       name = "open";
       packageName = "open";
-      version = "8.3.0";
+      version = "8.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/open/-/open-8.3.0.tgz";
-        sha512 = "7INcPWb1UcOwSQxAXTnBJ+FxVV4MPs/X++FWWBtgY69/J5lc+tCteMt/oFK1MnkyHC4VILLa9ntmwKTwDR4Q9w==";
+        url = "https://registry.npmjs.org/open/-/open-8.4.0.tgz";
+        sha512 = "XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==";
       };
     };
     "parse5-6.0.1" = {
@@ -1267,7 +1267,7 @@ in
       sources."normalize-path-3.0.0"
       sources."nth-check-2.0.1"
       sources."on-finished-2.3.0"
-      sources."open-8.3.0"
+      sources."open-8.4.0"
       sources."parse5-6.0.1"
       sources."parse5-htmlparser2-tree-adapter-6.0.1"
       sources."parseurl-1.3.3"
