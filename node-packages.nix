@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@babel/runtime-7.15.4" = {
+    "@babel/runtime-7.16.0" = {
       name = "_at_babel_slash_runtime";
       packageName = "@babel/runtime";
-      version = "7.15.4";
+      version = "7.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.15.4.tgz";
-        sha512 = "99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==";
+        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.16.0.tgz";
+        sha512 = "Nht8L0O8YCktmsDV6FqFue7vQLRx3Hb0B37lS5y0jDRqRxlBG4wIJHnf9/bgSE2UyipKFA01YtS+npRdTWBUyw==";
       };
     };
     "@steelydylan/markdown-it-imsize-1.0.2" = {
@@ -787,13 +787,13 @@ let
         sha512 = "hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==";
       };
     };
-    "node-fetch-2.6.5" = {
+    "node-fetch-2.6.6" = {
       name = "node-fetch";
       packageName = "node-fetch";
-      version = "2.6.5";
+      version = "2.6.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.5.tgz";
-        sha512 = "mmlIVHJEu5rnIxgEgez6b9GgWXbkZj5YZ7fx+2r94a2E+Uirsp6HsPTPlomfdHtpt/B0cdKviwkoaM6pyvUOpQ==";
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.6.tgz";
+        sha512 = "Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==";
       };
     };
     "normalize-path-3.0.0" = {
@@ -1168,7 +1168,7 @@ in
       sha512 = "XHLtzOTip8qf+nj4WoQqOC+EQ3jC4GmC31YzERxc4bR/5MYTyEj0cCh5b1dbJDPM8f6P3L53k6b+nR+87h5afQ==";
     };
     dependencies = [
-      sources."@babel/runtime-7.15.4"
+      sources."@babel/runtime-7.16.0"
       sources."@steelydylan/markdown-it-imsize-1.0.2"
       sources."@steelydylan/prism-diff-highlight-1.0.4"
       sources."accepts-1.3.7"
@@ -1263,7 +1263,7 @@ in
       sources."mime-types-2.1.33"
       sources."ms-2.0.0"
       sources."negotiator-0.6.2"
-      sources."node-fetch-2.6.5"
+      sources."node-fetch-2.6.6"
       sources."normalize-path-3.0.0"
       sources."nth-check-2.0.1"
       sources."on-finished-2.3.0"
